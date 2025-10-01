@@ -1,0 +1,20 @@
+on: [push, pull_request]
+
+jobs:
+  unit:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ "ubuntu", "windows", "macos" ]
+        go: [ "1.24.x", "1.25.x" ]
+    runs-on: ${{ matrix.os }}-latest
+    name: Tests (${{ matrix.os}}, Go ${{ matrix.go }})
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-go@v6
+        with:
+          go-version: ${{ matrix.go }}
+      - run: go version
+      - name: run tests
+        run: go test -v -shuffle on ./... 
