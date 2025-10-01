@@ -13,8 +13,8 @@ import (
 	"log"
 	"strings"
 
-	"encoding/json/jsontext"
-	"encoding/json/v2"
+	"github.com/quic-go/json/jsontext"
+	"github.com/quic-go/json/v2"
 )
 
 // This example demonstrates the use of the [Encoder] and [Decoder] to

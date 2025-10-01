@@ -11,7 +11,7 @@ import (
 	"io"
 	"strconv"
 
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 const errorPrefix = "jsontext: "

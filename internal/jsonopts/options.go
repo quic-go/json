@@ -7,8 +7,9 @@
 package jsonopts
 
 import (
-	"encoding/json/internal"
-	"encoding/json/internal/jsonflags"
+	"github.com/quic-go/json/internal"
+
+	"github.com/quic-go/json/internal/jsonflags"
 )
 
 // Options is the common options type shared across json packages.

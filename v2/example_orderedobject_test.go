@@ -11,8 +11,8 @@ import (
 	"log"
 	"reflect"
 
-	"encoding/json/jsontext"
-	"encoding/json/v2"
+	"github.com/quic-go/json/jsontext"
+	"github.com/quic-go/json/v2"
 )
 
 // OrderedObject is an ordered sequence of name/value members in a JSON object.

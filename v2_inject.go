@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"encoding/json/internal"
-	"encoding/json/jsontext"
-	jsonv2 "encoding/json/v2"
+	"github.com/quic-go/json/internal"
+	"github.com/quic-go/json/jsontext"
+	jsonv2 "github.com/quic-go/json/v2"
 )
 
 // Inject functionality into v2 to properly handle v1 types.

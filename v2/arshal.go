@@ -16,10 +16,11 @@ import (
 	"sync"
 	"time"
 
-	"encoding/json/internal"
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonopts"
-	"encoding/json/jsontext"
+	"github.com/quic-go/json/internal"
+	"github.com/quic-go/json/jsontext"
+
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonopts"
 )
 
 // Reference encoding and time packages to assist pkgsite

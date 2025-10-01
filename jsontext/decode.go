@@ -11,9 +11,9 @@ import (
 	"errors"
 	"io"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonopts"
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonopts"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // NOTE: The logic for decoding is complicated by the fact that reading from

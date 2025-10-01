@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"encoding/json/internal/jsontest"
+	"github.com/quic-go/json/internal/jsontest"
 )
 
 type codeResponse struct {

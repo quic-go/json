@@ -9,7 +9,7 @@ package jsontext
 import (
 	"io"
 
-	"encoding/json/internal"
+	"github.com/quic-go/json/internal"
 )
 
 // Internal is for internal use only.

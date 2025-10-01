@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"encoding/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonflags"
 )
 
 func TestAppendQuote(t *testing.T) {

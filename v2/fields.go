@@ -18,8 +18,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 type isZeroer interface {

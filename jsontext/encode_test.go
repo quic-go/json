@@ -14,9 +14,9 @@ import (
 	"slices"
 	"testing"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsontest"
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsontest"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // TestEncoder tests whether we can produce JSON with either tokens or raw values.

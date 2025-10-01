@@ -11,9 +11,10 @@ import (
 	"io"
 	"strings"
 
-	"encoding/json/internal"
-	"encoding/json/internal/jsonflags"
-	"encoding/json/jsontext"
+	"github.com/quic-go/json/internal"
+	"github.com/quic-go/json/jsontext"
+
+	"github.com/quic-go/json/internal/jsonflags"
 )
 
 // export exposes internal functionality of the "jsontext" package.

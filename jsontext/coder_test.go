@@ -17,8 +17,8 @@ import (
 	"strings"
 	"testing"
 
-	"encoding/json/internal/jsontest"
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsontest"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 func E(err error) *SyntacticError {

@@ -15,8 +15,9 @@ import (
 	"time"
 
 	jsonv1 "encoding/json"
-	"encoding/json/jsontext"
-	jsonv2 "encoding/json/v2"
+
+	"github.com/quic-go/json/jsontext"
+	jsonv2 "github.com/quic-go/json/v2"
 )
 
 // NOTE: This file serves as a list of semantic differences between v1 and v2.

@@ -15,10 +15,11 @@ import (
 	"strings"
 	"sync"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonopts"
-	"encoding/json/internal/jsonwire"
-	"encoding/json/jsontext"
+	"github.com/quic-go/json/jsontext"
+
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonopts"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // ErrUnknownName indicates that a JSON object member could not be

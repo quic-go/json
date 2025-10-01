@@ -12,8 +12,9 @@ import (
 	"reflect"
 	"testing"
 
-	"encoding/json/internal/jsontest"
-	"encoding/json/jsontext"
+	"github.com/quic-go/json/jsontext"
+
+	"github.com/quic-go/json/internal/jsontest"
 )
 
 type unexported struct{}

@@ -11,11 +11,12 @@ import (
 	"reflect"
 	"strconv"
 
-	"encoding/json/internal"
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonopts"
-	"encoding/json/internal/jsonwire"
-	"encoding/json/jsontext"
+	"github.com/quic-go/json/internal"
+	"github.com/quic-go/json/jsontext"
+
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonopts"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // This file contains an optimized marshal and unmarshal implementation

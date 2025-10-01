@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"strings"
 
-	"encoding/json/jsontext"
+	"github.com/quic-go/json/jsontext"
 )
 
 // HTMLEscape appends to dst the JSON-encoded src with <, >, &, U+2028 and U+2029

@@ -21,8 +21,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"encoding/json/jsontext"
-	"encoding/json/v2"
+	"github.com/quic-go/json/jsontext"
+	"github.com/quic-go/json/v2"
 )
 
 // If a type implements [encoding.TextMarshaler] and/or [encoding.TextUnmarshaler],

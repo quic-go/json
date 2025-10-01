@@ -14,8 +14,9 @@ import (
 	"strings"
 	"testing"
 
-	"encoding/json/internal/jsonwire"
-	"encoding/json/jsontext"
+	"github.com/quic-go/json/jsontext"
+
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 func TestSemanticError(t *testing.T) {

@@ -9,9 +9,9 @@ package jsontext
 import (
 	"strings"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonopts"
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonopts"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // Options configures [NewEncoder], [Encoder.Reset], [NewDecoder],

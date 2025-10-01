@@ -10,10 +10,11 @@ import (
 	"reflect"
 	"testing"
 
-	"encoding/json/internal/jsonflags"
-	. "encoding/json/internal/jsonopts"
-	"encoding/json/jsontext"
-	"encoding/json/v2"
+	"github.com/quic-go/json/jsontext"
+	"github.com/quic-go/json/v2"
+
+	"github.com/quic-go/json/internal/jsonflags"
+	. "github.com/quic-go/json/internal/jsonopts"
 )
 
 func makeFlags(f ...jsonflags.Bools) (fs jsonflags.Flags) {

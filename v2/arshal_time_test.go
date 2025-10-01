@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 func baseLabel(base uint64) string {

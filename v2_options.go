@@ -177,10 +177,11 @@ package json
 import (
 	"encoding"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonopts"
-	"encoding/json/jsontext"
-	jsonv2 "encoding/json/v2"
+	"github.com/quic-go/json/jsontext"
+	jsonv2 "github.com/quic-go/json/v2"
+
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonopts"
 )
 
 // Reference encoding, jsonv2, and jsontext packages to assist pkgsite

@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"strconv"
 
-	jsonv2 "encoding/json/v2"
+	jsonv2 "github.com/quic-go/json/v2"
 )
 
 // Marshal returns the JSON encoding of v.

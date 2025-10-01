@@ -13,7 +13,7 @@ import (
 	"unicode/utf16"
 	"unicode/utf8"
 
-	"encoding/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonflags"
 )
 
 // escapeASCII reports whether the ASCII character needs to be escaped.

@@ -12,10 +12,11 @@ import (
 	"io"
 	"reflect"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonopts"
-	"encoding/json/internal/jsonwire"
-	"encoding/json/jsontext"
+	"github.com/quic-go/json/jsontext"
+
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonopts"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // This package supports "inlining" a Go struct field, where the contents

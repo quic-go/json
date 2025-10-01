@@ -22,9 +22,11 @@ import (
 	jsonv1 "encoding/json"
 
 	jsonv1in2 "encoding/json"
-	"encoding/json/internal/jsontest"
-	"encoding/json/jsontext"
-	jsonv2 "encoding/json/v2"
+
+	"github.com/quic-go/json/jsontext"
+	jsonv2 "github.com/quic-go/json/v2"
+
+	"github.com/quic-go/json/internal/jsontest"
 )
 
 // benchVersion is the version to benchmark (either "v1", "v1in2", or "v2").

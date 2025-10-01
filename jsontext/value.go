@@ -13,8 +13,8 @@ import (
 	"slices"
 	"sync"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // NOTE: Value is analogous to v1 json.RawMessage.

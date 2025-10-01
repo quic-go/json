@@ -15,9 +15,10 @@ import (
 	"reflect"
 	"strconv"
 
-	"encoding/json/internal/jsonwire"
-	"encoding/json/jsontext"
-	jsonv2 "encoding/json/v2"
+	"github.com/quic-go/json/jsontext"
+	jsonv2 "github.com/quic-go/json/v2"
+
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // Unmarshal parses the JSON-encoded data and stores the result

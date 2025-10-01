@@ -19,9 +19,9 @@ import (
 	"testing"
 	"testing/iotest"
 
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsontest"
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsontest"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // equalTokens reports whether to sequences of tokens formats the same way.

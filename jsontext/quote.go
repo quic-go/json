@@ -7,8 +7,8 @@
 package jsontext
 
 import (
-	"encoding/json/internal/jsonflags"
-	"encoding/json/internal/jsonwire"
+	"github.com/quic-go/json/internal/jsonflags"
+	"github.com/quic-go/json/internal/jsonwire"
 )
 
 // AppendQuote appends a double-quoted JSON string literal representing src
