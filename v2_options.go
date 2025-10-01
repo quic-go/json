@@ -2,8 +2,6 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:build goexperiment.jsonv2
-
 // Migrating to v2
 //
 // This package (i.e., [encoding/json]) is now formally known as the v1 package

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:build !goexperiment.jsonv2
+//go:build ignore
 
 // Package json implements encoding and decoding of JSON as defined in RFC 7159.
 // The mapping between JSON and Go values is described in the documentation for

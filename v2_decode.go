@@ -2,8 +2,6 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-//go:build goexperiment.jsonv2
-
 // Represents JSON data structure using native Go types: booleans, floats,
 // strings, arrays, and maps.
 
